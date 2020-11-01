@@ -1,0 +1,1 @@
+plot3(-1:0.05:1, -1:0.05:1, arrayfun(@(x, y) atan(x + y) * (acos(x) + asin(y)), -1:0.05:1, -1:0.05:1)); grid on;
